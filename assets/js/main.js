@@ -5,16 +5,10 @@ const contactForm = document.getElementById('contact-form'),
 const sendEmail = (e) =>{
    e.preventDefault()
 
-   /*   
-      The code for sending emails is just an example.
-
-      Create your account at https://www.emailjs.com/ and 
-      follow the instructions in the images for sending emails 
-      that are in the project folder.
-   */
+  
 
    // serviceID - templateID - #form - publicKey
-   emailjs.sendForm('service_8ii265v','template_85g6ftk','#contact-form','VQaq6RG_bXgUd7BNm')
+   emailjs.sendForm('service_f9urrxk','template_kovprd8','#contact-form','Qo-yREMDdM0UDzdjT')
 
    .then(() =>{
       // Show sent message
