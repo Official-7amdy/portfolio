@@ -4,8 +4,8 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
-  --hue: 1;
-  --first-color: hsl(var(--hue), 94%, 24%);
+  --hue: 185;
+  --first-color: hsl(var(--hue), 76%, 43%);
   --first-color-alt: hsl(var(--hue), 76%, 45%);
   --white-color: hsl(0, 0%, 98%);
   --black-color: hsl(0, 0%, 1%);
@@ -14,7 +14,7 @@
   --container-color: hsl(var(--hue), 2%, 10%);
   --conic-gradient: conic-gradient(from 150deg at 50% 45%,
                   hsl(var(--hue), 80%, 20%) 0deg,
-                  hsl(var(--hue), 80%, 48%) 140deg,
+                  hsl(var(--hue), 17%, 48%) 140deg,
                   hsl(var(--hue), 80%, 20%) 360deg);
 
   /*========== Font and typography ==========*/
@@ -247,7 +247,7 @@ img {
 }
 
 .info__img {
-  width: 140px;
+  width: 240px;
   justify-self: center;
   align-self: flex-end;
 }
